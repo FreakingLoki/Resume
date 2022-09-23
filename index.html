@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--head includes metadata for the webpage-->
+    <head>
+        <title>Jesse Heald</title>
+        <link href="./resources/style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=500, initial-scale=1" />
+    </head>
+
+    <body>
+
+
+        <!--header contains the top bar navigation and intro to the page-->
+        <header>
+        
+            <!-- look into making all nav-buttons the same size regardless of element content-->
+            <!-- might be easier with display: inline-box; than with a table -->
+            <h1 id="top">Jesse Heald</h1>
+            <nav id="top-nav-bar">
+                <table id="nav-table">
+                    <tr>
+                        <td><a class="nav-button" href="#skills">Skills</a></td>
+                        <td><a class="nav-button" href="#projects">Projects</a></td>
+                        <td><a class="nav-button" href="#experiance">Experiance</a></td>
+                        <td><a class="nav-button" href="#contact">Contact</a></td>
+                    </tr>
+                </table>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <!--this section lists and details all relevant skills-->
+            <!-- change css and html to make this images with text underneath that -->
+            <!-- don't sit in a table. use display: inline-box and probably change the table element paragraphs-->
+            <section id="skills">
+
+                <h2>Skills</h2>
+
+                <table id="badge-table">
+                    <tr>
+                        <td><img src="./resources/images/HTML5Badge.png" width="60" height="64" alt="HTML5Badge"></td>
+                        <td><img src="./resources/images/CSS3Badge.png" width="50" height="64" alt="CSS3Badge"></td>
+                    </tr>
+                </table>
+
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Windows 10</li>
+                    <li>Microsoft Office</li>
+                    <li>Command Line</li>
+                </ul>
+
+            </section>
+
+            <br><br><br>
+
+            <!-- this section lists and describes development projects i have completed-->
+            <section id="projects">
+
+                <h2>Projects</h2>
+                    <!-- update this link if or when this goes live -->
+                    <h3><a href ="">Resume Website</a></h3>
+                        <p>This resume was the first project I began working on in September of 2022 as I began classes for Full Stack Development. This resume displays my abilities with HTML5 and CSS at the moment and is constantly being updated to reflect my <a href="#skills">skills</a>, <a href="#projects">projects</a>, and <a href="#experiance">work experiance</a>.</p>
+
+            </section>
+
+            <br><br><br>
+
+            <!--this section lists previous emplyment information including dates and responsibilities-->
+            <section id="experiance">
+
+                <h2>Work Experiance</h2>
+
+                <h3>Performance Foodservice Northcenter</h3>
+                <p><em>from Oct. 2014 - Present</em></p>
+                <h4>Job Responsibilities:</h4>
+                    <ul>
+                        <li>offload returned product from trucks</li>
+                        <li>ensure the emptied truck is ready for loading for next day's delivery by organizing load bars, load straps, temperature bulkheads, and pallets</li>
+                        <li>check returned product for quality issues including temperature, damage, or spoilage</li>
+                        <li>check in returns and ensure the "reason code" for the retuned product is appropriate and correct</li>
+                        <li>ensure the return slot on the returned product is correct</li>
+                        <li>perform inventory counts and adjustments</li>
+                        <li>in any downtime assist with issuing credit to customers and filing credit, inventory, and return paperwork</li>
+                        <li>work in a safe and respectful manner in a busy area of the warehouse with limited space and time</li>
+                        <li>maintain a clean work area</li>
+                    </ul>
+
+            </section>
+
+        </main>
+
+
+        <!--footer includes contact info and data about the webpage-->
+        <!-- change the style of this to match the header -->
+        <!-- use display: inline-block; -->
+        <footer id="contact">
+
+            <h2>Contact Me</h2>
+
+            <table id="con-table">
+                <tr>
+                    <td class="con-td"><a href="https://www.linkedin.com/in/jesseheald/" target="_blank"><img src="./resources/images/AquaLinkedIn.png" height="40px" width="40px"></a></td>
+                    <td class="con-td">email: jesse@jesseheald.com</td>
+                    <td class="con-td"><a href="https://github.com/FreakingLoki" target="_blank"><img src="./resources/images/AquaGitHub.png" height="40px" width="40px"></a></td>
+                </tr>
+            </table>
+
+            <!-- provides a link back to the top of the page -->
+            <h5><a href="#top">back to top</a></h5>
+
+            <!--update this each time the webpage is updated-->
+            <h6>last updated the evening of 9/23/2022</h6>
+
+        </footer>
+        
+    </body>
+</html>
