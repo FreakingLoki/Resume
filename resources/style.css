@@ -26,32 +26,6 @@ header {
     min-width: 500px;
 }
 
-/* this is the element that contains the skills, projects, and experiance sections */
-main {
-    background-color: darkblue;
-    margin: 50px 5%;
-    padding: 2px 8px; 
-    border: 5px solid olive;
-    border-radius: 40px;
-    min-width: 500px;
-}
-
-/* need to adjust these so that when the window is small */
-/* they are in the center of the window */
-/*  */
-footer {
-    margin: 50px 0 0 0;
-    background-color: rgb(3, 3, 53);
-    min-width: 500px;
-    width: 100%;
-    height: 300px;
-    position: relative;
-    bottom: 0px;
-    left: 0px;
-    border-top: 5px solid olive;
-}
-
-
 nav#top-nav-bar {
     background-color: rgb(3, 3, 53);
     min-width: 500px;
@@ -64,8 +38,34 @@ nav#top-nav-bar {
     border-bottom: 5px solid olive;
 }
 
-ul {
- list-style: square;
+table#nav-table {
+    min-width: 500px;
+}
+
+a.nav-button {
+    border: 2px solid olive;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+a.nav-button:hover {
+    background-color: olive;
+    color: rgb(3, 3, 53);
+}
+
+/* this is the element that contains the skills, projects, and experiance sections */
+main {
+    background-color: darkblue;
+    margin: 50px 5%;
+    padding: 2px 8px; 
+    border: 5px solid olive;
+    border-radius: 40px;
+    min-width: 500px;
+}
+
+#badge-table {
+    margin: 10px auto;
+    padding: 20px 24px; 
 }
 
 h1 {
@@ -105,42 +105,39 @@ h6 {
     margin: 20px auto;
 }
 
+ul {
+    list-style: square;
+}
+
 a {
     padding: 0px;
     text-decoration: none;
     color: rgb(21, 148, 21);
 }
-a.nav-button {
-    border: 2px solid olive;
-    border-radius: 15px;
-    padding: 20px;
-}
 
 a:hover {
- color: lightgreen;
- font-style: italic;
-}
-
-a.nav-button:hover {
- background-color: olive;
- color: rgb(3, 3, 53);
+    color: lightgreen;
+    font-style: italic;
 }
 
 table {
-margin: 20px auto;
-padding: 20px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
-table#nav-table {
+footer {
+    margin: 50px 0 0 0;
+    background-color: rgb(3, 3, 53);
     min-width: 500px;
-}
-
-#badge-table {
-    margin: 10px auto;
-    padding: 20px 24px; 
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-top: 5px solid olive;
 }
 
 .con-td {
-margin: 0 20px;
-padding: 0 20px;
+    margin: 0 20px;
+    padding: 0 20px;
 }
