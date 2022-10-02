@@ -53,7 +53,7 @@ a.nav-button:hover {
     color: rgb(3, 3, 53);
 }
 
-/* this is the element that contains the skills, projects, and experiance sections */
+/* this is the element that contains the skills, projects, and experience sections */
 main {
     background-color: darkblue;
     margin: 50px 5%;
@@ -83,13 +83,13 @@ h2 {
 
 h3{
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     margin: 20px auto;
 }
 
 h4{
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     margin: 20px auto;
 }
 
