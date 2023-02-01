@@ -1,14 +1,16 @@
 
 New colors from Coolors palette:
-rgb(228, 253, 225) text color
-rgb(20, 1, 82) background color
-rgb(4, 5, 46) nav header footer background color
-rgb(69, 105, 144) border color
-rgb(245, 138, 7) anchor color
-rgb(248, 242, 114) anchor hover color
+rgb(228, 253, 225) text color #E4FDE1
+rgb(20, 1, 82) background color #140152
+rgb(4, 5, 46) nav header footer background color #04052E
+rgb(69, 105, 144) border color #456990
+rgb(245, 138, 7) anchor color #F58A07
+rgb(248, 242, 114) anchor hover color #F8F272
 
 
 currently image colors are aqua. need to update them all to be rgb(228, 253, 225).
 
 currently the skills table is too condensed. add spacing between rows to
 clarify what image goes with what skill
+
+fix the footer's width.
