@@ -1,0 +1,23 @@
+currently (before color updates) using 7 colors:
+rgb(0, 255, 255) text color
+rgb(1, 0, 78) background color
+rgb(0, 0, 139) nav header footer background color
+rgb(128, 128, 0) border color
+rgb(21, 148, 21) anchor color
+rgb(144, 238, 144) anchor hover color
+
+Coolors colors in order from darkest luminence to brightest:
+rgb(228, 253, 225) text color
+rgb(20, 1, 82) background color
+rgb(4, 5, 46) nav header footer background color
+rgb(69, 105, 144) border color
+rgb(245, 138, 7) anchor color
+rgb(248, 242, 114) anchor hover color
+
+
+currently the h1 saying "Jesse Heald" is within the <header>
+move it out and put it in its own section at the start of <main>
+remove the background-color: rgb(0, 0, 139);
+[new = background color: rgb(27, 45, 42);] from the <header>
+
+currently image colors are aqua. need to update them all to be rgb(228, 253, 225).

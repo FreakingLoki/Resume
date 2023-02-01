@@ -1,0 +1,173 @@
+ * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(228, 253, 225);
+    box-sizing: border-box;
+}
+
+/* this is the background of the entire page*/
+html {
+    background-color: rgb(1, 0, 78);
+}
+
+body {
+    margin: 0;
+}
+
+/* this is the element that contains the name */
+header {
+    background-color: rgb(4, 5, 46);
+    background-size: cover;
+    background-position: 0px 1300px;
+    margin: 150px 0 50px 0;
+    padding: 2px 8px; 
+    border: 5px solid rgb(69, 105, 144);
+    border-radius: 40px;
+    min-width: 500px;
+    width: 100%;
+    max-width: 100%;
+}
+
+nav#top-nav-bar {
+    background-color: rgb(4, 5, 46);
+    min-width: 500px;
+    max-width: 100%;
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-bottom: 5px solid rgb(69, 105, 144);
+}
+
+table#nav-table {
+    min-width: 500px;
+}
+
+
+a.nav-button {
+    border: 2px solid rgb(69, 105, 144);
+    border-radius: 15px;
+    padding: 20px 40px;
+    transition: color 1s, background-color 1s;
+}
+
+a.nav-button:hover {
+    background-color: rgb(69, 105, 144);
+    color: rgb(20, 1, 82);
+}
+
+/* media query to adjust nav scaling on smaller screens */
+
+@media only screen and (max-width: 750px) {
+    nav#top-nav-bar {
+      height: 85px;
+    }
+  
+    a.nav-button {
+      font-size: 0.8em;
+      padding: 10px 15px;
+    }
+  }
+  
+
+/* this is the element that contains the skills, projects, and experience sections */
+main {
+    background-color: rgb(20, 1, 82);
+    margin: 50px auto;
+    padding: 2px 8px; 
+    border: 5px solid rgb(69, 105, 144);
+    border-radius: 40px;
+    min-width: 500px;
+    max-width: 80%;
+}
+
+#badge-table {
+    margin: 10px auto;
+    padding: 20px 24px; 
+}
+
+table#badge-table td {
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid rgb(69, 105, 144);
+    border-radius: 6px;
+}
+
+h1 {
+    font-size: 65px;
+    color: rgb(228, 253, 225);
+    text-align: center;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h3{
+    font-size: 30px;
+    text-align: left;
+    margin: 20px auto;
+}
+
+h4{
+    font-size: 20px;
+    text-align: left;
+    margin: 20px auto;
+}
+
+h5 {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h6 {
+    font-size: 10px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+ul {
+    list-style: square;
+}
+
+
+a {
+    padding: 0px;
+    text-decoration: none;
+    color: rgb(245, 138, 7);
+    transition: color 1s;
+}
+
+a:hover {
+    color: rgb(248, 242, 114);
+    font-style: italic;
+}
+
+table {
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    margin: 50px 0 0 0;
+    background-color: rgb(4, 5, 46);
+    min-width: 500px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-top: 5px solid rgb(69, 105, 144);
+    max-width: 80%;
+}
+
+.con-td {
+    margin: 0 20px;
+    padding: 0 20px;
+}

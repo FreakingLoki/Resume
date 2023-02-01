@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--TO DO LIST-->
+<!--update all "last updated" blurbs-->
+<!-- add a:active section to style.css for <a> and <a.nav-button> -->
+<!-- flesh out each page -->
+<!-- check CSS styling and see that transistions and colors work well-->
+<!-- tinker with the skills table's formatting-->
+<!-- make sure every <a> element has a title that is short and sweet -->
+<!-- add a page level quicknav tool to each page including homepage (within header?)-->
+<!-- make the email address open a compose window for the user-->
+
+
+
+    <!--head includes data about the webpage-->
+    <head>
+        <title>Jesse Heald</title>
+        <link href="./resources/style.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+
+        <!--header contains the top bar navigation and intro to the page-->
+        <header>
+        
+            
+            <h1 id="top">Jesse Heald</h1>
+
+            <nav id="top-nav-bar">
+                <table>
+                    <tr>
+                        <td><a class="nav-button" href="./index.html" title="refresh this page">Home</a></td>
+                        <td><a class="nav-button" href="./projects.html" title="navigate to the projects page">Projects</a></td>
+                        <td><a class="nav-button" href="./skills.html" title="navigate to the skills page">Skills</a></td>
+                        <td><a class="nav-button" href="./experience.html" title="navigate to the work experience page">Experience</a></td>
+                        <td><a class="nav-button" href="./contact.html" title="navigate to the contact and about page">Contact</a></td>
+                    </tr>
+                </table>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <!--this section lists and details all relevant skills-->
+            <!-- work on table formatting to look better. also source images to pair with each skill -->
+            <section id="skills">
+
+                <h2>Skills</h2>
+                <h5><a href="./skills.html" title="more in-depth list and description of skills">More detailed descriptions and background here</a></h5>
+
+                <table id="badge-table">
+                    <tbody>
+                        <tr>
+                            <td><img src="./resources/images/AquaHTML5Badge.png" width="60" height="64" alt="HTML5 Badge"></td>
+                            <td><img src="./resources/images/AquaCSS3Badge.png" width="60" height="64" alt="CSS3 Badge"></td>
+                            <td><img src="./resources/images/AquaCommandLine.png" width="60" height="64" alt="Command Line Badge"></td>
+                        </tr>
+                        <tr>
+                            <td>HTML5</td>
+                            <td>CSS3</td>
+                            <td>Command Line</td>
+                        </tr>
+                        <tr>
+                            <td><img src="./resources/images/AquaWindows10.png" width="60" height="64" alt="Windows 10 Logo"></td>
+                            <td><img src="./resources/images/AquaOffice.png" width="60" height="64" alt="Microsoft Office Logo"></td>
+                        </tr>
+                        <tr>
+                            <td>Windows 10</td>
+                            <td>Microsoft Office</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+
+
+            </section>
+
+            <br><br><br>
+
+            <!-- this section lists and describes development projects i have completed-->
+            <section id="projects">
+
+                <h2>Projects</h2>
+                <h5><a href="./projects.html" title="full list of projects with more in-depth descriptions">Full list and more details about each project here</a></h5>
+                    <!-- update the links as nessecary -->
+                    <h3><a href="https://freakingloki.github.io/Resume/" target="_blank" title="the resume website you are currently viewing">Resume Website</a></h3>
+                    <p><em>construction began September 10 2022</em></p>
+                        <p>This resume was the first project I began working on in September of 2022 as I began classes for Full Stack Development. This resume displays my abilities with HTML5 and CSS at the moment and is constantly being updated to reflect my <a href="#skills">skills</a>, <a href="#projects">projects</a>, and <a href="#Experience">work experience</a>.</p>
+
+                    <h3><a href="https://freakingloki.github.io/CheatSheet/" target="_blank" title="a website dedicated to HTML and CSS code">Cheat Sheet Website</a></h3>
+                    <p><em>construction began October 2 2022</em></p>
+                        <p>This site is a small table of commonly used HTML and CSS code and how to use those sections of code. It contains links to <a href="https://developer.mozilla.org/en-US/" target="_blank" title="Mozilla's fantastic documentation site">Mozilla Developer Network</a> pages for more detailed information and a color palette found using the <a href="https://coolors.co/119da4-dadff7-b24c63-b8b42d-f8f991" target="_blank" title="a neat color selecting tool">Coolers</a> tool.</p>
+
+                    <h3><a href="" target="_blank" title="a website using flexbox and media queries to be responsive to different screen sizes">Tom McGraw's Krav Maga and Mediterranean Grill</a></h3>
+                    <p><em>construction began November 15 2022</em></p>
+                        <p>This site contains content based on a joke I enjoyed in one of my favorite podcasts. My purpose behind building this site was to practice using CSS Flexbox and combined with media queries in order to allow the site to adapt for different sized screens including tablets and other mobile devices. It heavily features images pulled from <a href="https://unsplash.com/" target="_blank" title="free hi-res photos">Unsplash</a> which provides free high resolution photos.</p>
+
+            </section>
+
+            <br><br><br>
+
+            <!--this section lists previous emplyment information including dates and responsibilities-->
+            <section id="experience">
+
+                <h2>Work Experience</h2>
+                <h5><a href="./experience.html" title="deeper dive on previous work experience">More in-depth descriptions and history here</a></h5>
+
+                <h3><a href="https://pfgc.com/" target="_blank" title="Performance Foodservice's website">Performance Foodservice Northcenter</a></h3>
+                <p><em>from Oct. 2014 - Present</em></p>
+                <h4>Job Responsibilities:</h4>
+                    <ul>
+                        <li>offload returned product from trucks</li>
+                        <li>ensure the emptied truck is ready for loading for next day's delivery by organizing load bars, load straps, temperature bulkheads, and pallets</li>
+                        <li>check returned product for quality issues including temperature, damage, or spoilage</li>
+                        <li>check in returns and ensure the "reason code" for the retuned product is appropriate and correct</li>
+                        <li>ensure the return slot on the returned product is correct</li>
+                        <li>perform inventory counts and adjustments</li>
+                        <li>in any downtime assist with issuing credit to customers and filing credit, inventory, and return paperwork</li>
+                        <li>work in a safe and respectful manner in a busy area of the warehouse with limited space and time</li>
+                        <li>maintain a clean work area</li>
+                    </ul>
+
+            </section>
+
+        </main>
+
+
+        <!--footer includes contact info and data about the webpage-->
+        <footer id="contact">
+
+            <h2>Contact Me</h2>
+
+            <!-- fix email address-->
+
+            <table id="con-table">
+                <tr>
+                    <td class="con-td"><a href="https://www.linkedin.com/in/jesseheald/" target="_blank" title="my personal Linkedin profile"><img src="./resources/images/AquaLinkedIn.png" height="40px" width="40px"></a></td>
+                    <td class="con-td">email: jesse@jesseheald.com</td>
+                    <td class="con-td"><a href="https://github.com/FreakingLoki" target="_blank" title="my personal Github profile"><img src="./resources/images/AquaGitHub.png" height="40px" width="40px"></a></td>
+                </tr>
+            </table>
+            <!--update this each time the webpage is updated-->
+            <h6>this page's content last updated the morning of 12/5/2022</h6>
+            <h6>this page's styling last updated the morning of 10/11/2022</h6>
+
+            <!-- provides a link back to the top of the page -->
+            <br>
+            <h5><a class="nav-button" href="./index.html" title="return to the top of the page">Back to Top</a></h5>
+
+
+
+        </footer>
+        
+    </body>
+</html>
