@@ -13,19 +13,6 @@ body {
     margin: 0;
 }
 
-/* this is the element that contains the name */
-header {
-    background-color: rgb(4, 5, 46);
-    background-size: cover;
-    background-position: 0px 1300px;
-    margin: 150px 0 50px 0;
-    padding: 2px 8px; 
-    border: 5px solid rgb(69, 105, 144);
-    border-radius: 40px;
-    min-width: 500px;
-    width: 100%;
-    max-width: 100%;
-}
 
 nav#top-nav-bar {
     background-color: rgb(4, 5, 46);
@@ -74,7 +61,7 @@ a.nav-button:hover {
 /* this is the element that contains the skills, projects, and experience sections */
 main {
     background-color: rgb(20, 1, 82);
-    margin: 50px auto;
+    margin: 150px auto;
     padding: 2px 8px; 
     border: 5px solid rgb(69, 105, 144);
     border-radius: 40px;
